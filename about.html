@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Isha Sharma - Story, Education & Hobbies</title>
+  <meta name="description" content="Discover Isha Sharma's story, educational background at JECRC University and Rukmani Birla Modern High School, and personal hobbies.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text x='50%' y='65%' text-anchor='middle' font-family='sans-serif' font-weight='bold' font-size='50' fill='white'>IS</text></svg>">
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION BAR ==================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="Isha Sharma Home">
+        <div class="brand-avatar">IS</div>
+        <span class="brand-name" data-bind="personal.fullName">Isha Sharma</span>
+      </a>
+
+      <nav class="nav-menu">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link active">About</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button id="theme-toggle-btn" class="theme-toggle" aria-label="Toggle Light and Dark Mode" title="Toggle theme">
+            <span id="theme-icon">☀️</span>
+          </button>
+          <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle navigation menu">
+            ☰
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT (PAGE 2: ABOUT) ==================== -->
+  <main>
+    <div class="page-header">
+      <div class="container">
+        <span class="badge-mini">Page 02 • Background</span>
+        <h1 class="page-title">My Story, Hobbies & Education</h1>
+        <p class="page-subtitle">A candid window into my roots in Jaipur, my academic journey, and what fuels my curiosity every day.</p>
+      </div>
+    </div>
+
+    <section class="about-section">
+      <div class="container">
+        
+        <!-- SECTION 1: MY STORY -->
+        <!-- EDIT HERE: You can update your story paragraphs below or in assets/js/config.js -->
+        <article class="card story-card">
+          <h3>
+            <span>📖</span>
+            <span>My Story</span>
+          </h3>
+          <div class="story-paragraphs">
+            <p>
+              Hello! I am <strong>Isha Sharma</strong>, born and brought up in the historic and culturally rich city of 
+              <span data-bind="personal.location">Jaipur, Rajasthan</span>. Growing up in the Pink City surrounded by iconic architectural landmarks gave me an instinctive appreciation for how structures are designed and how systems work.
+            </p>
+            <p>
+              I completed my schooling from <strong>Rukmani Birla Modern High School</strong> in Jaipur. My school years taught me the power of disciplined study, scientific reasoning, and developing a reflective habit of reading. That curiosity led me to pursue engineering.
+            </p>
+            <p>
+              Currently, I am in my first year studying <strong>Civil Engineering at JECRC University, Jaipur</strong>. Alongside engineering mechanics, mathematics, and spatial design, I have developed a specialized focus in <strong>Prompt Engineering</strong> and working as an <strong>AI Generalist</strong>. I am fascinated by how artificial intelligence can amplify human creativity and revolutionize traditional engineering domains.
+            </p>
+          </div>
+        </article>
+
+        <!-- SECTION 2: EDUCATION -->
+        <!-- EDIT HERE: Education details can be edited below or in assets/js/config.js -->
+        <div class="section-subtitle-bar">
+          <span>🎓</span>
+          <span>Education Timeline</span>
+        </div>
+
+        <div class="timeline">
+          
+          <!-- Higher Education: JECRC University -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="card timeline-card">
+              <div class="timeline-meta">
+                <span class="badge">Higher Education</span>
+                <span class="text-muted">2025 – Present</span>
+              </div>
+              <h3 class="timeline-degree">Bachelor of Technology (B.Tech) — Civil Engineering</h3>
+              <p class="timeline-institution" data-bind="personal.university">JECRC University, Jaipur</p>
+              <p class="timeline-desc">
+                Currently in <strong>1st Year</strong>. Building solid foundations in engineering mathematics, mechanics, graphics, and materials. Actively exploring the intersection of modern engineering with artificial intelligence, workflow automation, and computational problem solving.
+              </p>
+            </div>
+          </div>
+
+          <!-- Schooling: Rukmani Birla Modern High School -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="card timeline-card">
+              <div class="timeline-meta">
+                <span class="badge">Schooling</span>
+                <span class="text-muted">Completed</span>
+              </div>
+              <h3 class="timeline-degree">Senior Secondary & High School Education</h3>
+              <p class="timeline-institution" data-bind="personal.school">Rukmani Birla Modern High School, Jaipur</p>
+              <p class="timeline-desc">
+                Developed an analytical mindset and a strong grasp of mathematics and sciences. Actively nurtured a love for extensive reading, critical inquiry, and self-directed learning that continues to define my daily habits.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- SECTION 3: HOBBIES & PERSONAL TIME -->
+        <!-- EDIT HERE: Hobbies can be updated below or in assets/js/config.js -->
+        <div class="section-subtitle-bar">
+          <span>🌿</span>
+          <span>Hobbies & Personal Time</span>
+        </div>
+
+        <div class="hobbies-grid">
+          
+          <div class="card hobby-card">
+            <div class="hobby-icon">📚</div>
+            <h4 class="hobby-title">Love for Reading</h4>
+            <p class="hobby-desc">
+              Reading is one of my greatest passions. I enjoy non-fiction, thought-provoking books on personal development, psychology, technology, and literature. Every book offers a quiet portal to new ideas.
+            </p>
+          </div>
+
+          <div class="card hobby-card">
+            <div class="hobby-icon">☕</div>
+            <h4 class="hobby-title">Valuing Personal Downtime</h4>
+            <p class="hobby-desc">
+              I deeply cherish my quiet personal time. Whether it is reflecting on the day, journaling, or taking an evening stroll, uninterrupted quiet time allows me to recharge, think clearly, and cultivate focus.
+            </p>
+          </div>
+
+          <div class="card hobby-card">
+            <div class="hobby-icon">🤖</div>
+            <h4 class="hobby-title">Exploring AI & Prompting</h4>
+            <p class="hobby-desc">
+              Outside classes, I spend time experimenting with cutting-edge LLMs (ChatGPT, Claude, Gemini), crafting novel system instructions, and discovering creative automation workflows.
+            </p>
+          </div>
+
+          <div class="card hobby-card">
+            <div class="hobby-icon">🏛️</div>
+            <h4 class="hobby-title">Architecture & City Walks</h4>
+            <p class="hobby-desc">
+              Living in Jaipur inspires me constantly. I enjoy observing the geometric harmony of historic forts, Havelis, and modern urban planning across the city.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Call to Action Banner -->
+        <div class="hero-actions" style="margin-top: 3rem; margin-bottom: 1rem;">
+          <a href="skills.html" class="btn btn-primary">
+            <span>Explore My Skills & Tools</span>
+            <span>→</span>
+          </a>
+          <a href="contact.html" class="btn btn-secondary">
+            <span>Connect with Me</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-brand-title" data-bind="personal.fullName">Isha Sharma</span>
+          <p>Civil Engineering Student • Prompt Engineer • AI Generalist</p>
+        </div>
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Isha Sharma. All rights reserved.</p>
+        <p>Built with clean code & modern design • Jaipur, Rajasthan</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/customizer.js"></script>
+</body>
+</html>

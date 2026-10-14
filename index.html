@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isha Sharma | Personal Portfolio - Home</title>
+  <meta name="description" content="Personal portfolio of Isha Sharma - 1st Year Civil Engineering Student at JECRC University, Jaipur | Prompt Engineer & AI Generalist">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text x='50%' y='65%' text-anchor='middle' font-family='sans-serif' font-weight='bold' font-size='50' fill='white'>IS</text></svg>">
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION BAR ==================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <!-- Brand Logo / Name -->
+      <a href="index.html" class="brand-logo" aria-label="Isha Sharma Home">
+        <div class="brand-avatar">IS</div>
+        <span class="brand-name" data-bind="personal.fullName">Isha Sharma</span>
+      </a>
+
+      <!-- Navigation Links (4 Pages) -->
+      <nav class="nav-menu">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Action Items (Theme Toggle & Mobile Menu) -->
+        <div class="nav-actions">
+          <button id="theme-toggle-btn" class="theme-toggle" aria-label="Toggle Light and Dark Mode" title="Toggle theme">
+            <span id="theme-icon">☀️</span>
+          </button>
+          <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle navigation menu">
+            ☰
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT (PAGE 1: HOME) ==================== -->
+  <main>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          
+          <!-- Status / Greeting Badge -->
+          <div class="hero-badge-wrap">
+            <div class="badge">
+              <span class="pulse-dot"></span>
+              <span data-bind="personal.statusBadge">Available for Projects & Tech Collaborations</span>
+            </div>
+          </div>
+
+          <!-- Hero Name Heading -->
+          <h1 class="hero-title">
+            <span class="gradient-text" data-bind="personal.fullName">Isha Sharma</span>
+          </h1>
+
+          <!-- Two-Line Intro Box -->
+          <!-- EDIT HERE: You can change the two intro lines below or inside assets/js/config.js -->
+          <div class="hero-intro-box">
+            <p class="intro-line-1" data-bind="home.introLine1">
+              First-year Civil Engineering student at JECRC University, Jaipur.
+            </p>
+            <p class="intro-line-2" data-bind="home.introLine2">
+              Passionate Prompt Engineer & AI Generalist bridging foundational engineering with intelligent technology.
+            </p>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="hero-actions">
+            <a href="about.html" class="btn btn-primary">
+              <span>Explore My Story & Journey</span>
+              <span>→</span>
+            </a>
+            <a href="skills.html" class="btn btn-secondary">
+              <span>View Skills & Expertise</span>
+            </a>
+            <a href="contact.html" class="btn btn-outline">
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <!-- Quick Highlight Cards -->
+          <div class="highlights-grid">
+            <div class="highlight-card">
+              <div class="highlight-icon">🏛️</div>
+              <div class="highlight-info">
+                <h4 data-bind="personal.university">JECRC University</h4>
+                <p>Civil Engineering, 1st Year</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon">📍</div>
+              <div class="highlight-info">
+                <h4>Jaipur, Rajasthan</h4>
+                <p>The Pink City • Hometown</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon">⚡</div>
+              <div class="highlight-info">
+                <h4>Prompt Engineering</h4>
+                <p>LLM Prompting & AI Systems</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon">📖</div>
+              <div class="highlight-info">
+                <h4>Avid Reader</h4>
+                <p>Literature, Ideas & Growth</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-brand-title" data-bind="personal.fullName">Isha Sharma</span>
+          <p>Civil Engineering Student • Prompt Engineer • AI Generalist</p>
+        </div>
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Isha Sharma. All rights reserved.</p>
+        <p>Built with clean code & modern design • Jaipur, Rajasthan</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/customizer.js"></script>
+</body>
+</html>
